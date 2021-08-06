@@ -47,11 +47,11 @@ p {
     background-color: #282928;
     height: 80px;
 }
-.justify-content-center{
+/* .justify-content-center{
     align-items: center;
     display: flex;
     text-align: justify;
-}
+} */
 .col-2{
     border: 2px solid green;
     width: 270px;
@@ -59,4 +59,11 @@ p {
 .col-2 > p > svg{
     border: 1px solid yellow;
     align-items: center;
+}
+.px-2 .col-2 > img{
+    height: 120px;
+}
+.px-2 .col-2{
+    width: 200px;
+    border: 2px solid orange;
 }
